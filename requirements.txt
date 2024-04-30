@@ -3,3 +3,5 @@ llama-index-vector-stores-mongodb
 llama-index-embeddings-openai
 pymongo
 python-dotenv
+pdfplumber
+google-colab
