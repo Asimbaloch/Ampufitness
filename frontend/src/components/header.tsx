@@ -11,10 +11,9 @@ const Header = () => {
                 <Image src={"/dark-logo.png"} width={100} height={100} alt="Logo" className="hidden dark:block" />
                 <span className="text-2xl font-black max-sm:hidden">Ampu Fitness</span>
             </div>
-            <nav className="flex gap-x-5 max-md:gap-x-3">
+            <nav className="flex gap-x-6">
                 <ModeToggle />
-                <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>Login</Link>
-                <Link href={"/login"} className={buttonVariants({ variant: "secondary" })}>Dashboard</Link>
+                <Link href={"/chatbot"} className={buttonVariants({ variant: "outline" })}>Try demo</Link>
             </nav>
         </header>
     )
