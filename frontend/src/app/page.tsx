@@ -14,10 +14,11 @@ export default function Home() {
           "The road to a better world"
         </p>
         <TypewriterEffectSmooth words={words} />
-        <Link className={buttonVariants({ variant: "ghost" })} href={"/login"}>Start now</Link>
+        <Link className={buttonVariants({ variant: "outline" })} href={"/login"}>Start now</Link>
       </div>
       <Image src={"/hero.png"} width={630} height={500} alt="Hero" className="rounded-lg" />
-      <div className="flex flex-row items-center justify-center w-full mt-16 mb-10">
+      <h1 className="py-5 pt-10 text-3xl">Our team</h1>
+      <div className="flex flex-row items-center justify-center w-full mb-10">
         <AnimatedTooltip items={people} />
       </div>
     </main>

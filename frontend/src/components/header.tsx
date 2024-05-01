@@ -20,7 +20,7 @@ const Header = () => {
             <nav className="flex gap-x-6">
                 <ModeToggle />
                 {pathname !== "/dashboard" ?
-                    <Link href={"/dashboard"} className={buttonVariants({ variant: "outline" })}>Try demo</Link>
+                    <Link href={"/dashboard"} className={buttonVariants({ variant: "secondary" })}>Try demo</Link>
                     : null
                 }
             </nav>

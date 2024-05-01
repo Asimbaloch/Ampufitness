@@ -17,39 +17,33 @@ export const words = [
 export const people = [
     {
         id: 1,
-        name: "John Doe",
-        designation: "Software Engineer",
-        image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+        name: "Asim Khan",
+        designation: "Team Leader and AI Engineer",
+        image: "https://lablab.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Flablab-static-eu%2Fimages%2Fusers%2Fundefined_picture_o177xh09vu.jpg&w=96&q=75",
     },
     {
         id: 2,
-        name: "Robert Johnson",
+        name: "Ernest Choi",
         designation: "Product Manager",
-        image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+        image: "https://media.licdn.com/dms/image/D5635AQEI7rHXO-ciVQ/profile-framedphoto-shrink_200_200/0/1694653432380?e=1715202000&v=beta&t=jfqIEL7gUn8boJSe2YouSu7fWKf9mJBNCUgSbzCum9w",
     },
     {
         id: 3,
-        name: "Jane Smith",
-        designation: "Data Scientist",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+        name: "Slavi Karaslavov",
+        designation: "Software Developer",
+        image: "https://avatars.githubusercontent.com/u/106228555?v=4",
     },
     {
         id: 4,
-        name: "Emily Davis",
-        designation: "UX Designer",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        name: "Roha Pathan",
+        designation: "Software Developer",
+        image: "https://media.licdn.com/dms/image/D4D03AQESWZuOVpp-bg/profile-displayphoto-shrink_200_200/0/1713866224017?e=1720051200&v=beta&t=xNn4vUG_IB_ak46kpD4MlYta438VBJSkRWXzgEd7Rsw",
     },
     {
         id: 5,
-        name: "Tyler Durden",
-        designation: "Soap Developer",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    },
-    {
-        id: 6,
-        name: "Dora",
-        designation: "The Explorer",
-        image: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+        name: "Kinh Quốc",
+        designation: "Data Scientist",
+        image: "https://media.licdn.com/dms/image/D5635AQED1RTDNOnI_Q/profile-framedphoto-shrink_200_200/0/1704037545340?e=1715198400&v=beta&t=8IrjSg9oWIxkZKr9yriHhyMbvd4YZTbOcQu6-297JQk",
     },
 ];
 
