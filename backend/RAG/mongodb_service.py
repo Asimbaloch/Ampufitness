@@ -21,4 +21,4 @@ def mongodb_setup(DB_NAME:str, COLLECTION_NAME:str):
   mongo_client = get_mongo_client(mongo_uri)
   db = mongo_client[DB_NAME]
   collection = db[COLLECTION_NAME]
-  return mongo_client
+  return db, mongo_client
