@@ -290,55 +290,57 @@ const Questionary = ({ setData }: { setData: Function }) => {
                     )}
                 />
 
-                <FormField
-                    control={form.control}
-                    name="exercises"
-                    render={() => (
-                        <FormItem>
-                            <div className="mb-4">
-                                <FormLabel className="text-xl">Exercises</FormLabel>
-                                <FormDescription className="text-base">
-                                    What type of exercise do you currently do? [Stretches count!]
-                                </FormDescription>
-                            </div>
-                            {exercises.map((item: any) => (
-                                <FormField
-                                    key={item.id}
-                                    control={form.control}
-                                    name="exercises"
-                                    render={({ field }) => {
-                                        return (
-                                            <FormItem
-                                                key={item.id}
-                                                className="flex flex-row items-center space-x-3 space-y-0"
-                                            >
-                                                <FormControl>
-                                                    <Checkbox
-                                                        checked={field.value?.includes(item.id)}
-                                                        onCheckedChange={(checked: boolean) => {
-                                                            return checked
-                                                                ? field.onChange([...field.value, item.id])
-                                                                : field.onChange(
-                                                                    field.value?.filter(
-                                                                        (value) => value !== item.id
+                {form.watch("exercise", undefined) === "yes" ?
+                    < FormField
+                        control={form.control}
+                        name="exercises"
+                        render={() => (
+                            <FormItem>
+                                <div className="mb-4">
+                                    <FormLabel className="text-xl">Exercises</FormLabel>
+                                    <FormDescription className="text-base">
+                                        What type of exercise do you currently do? [Stretches count!]
+                                    </FormDescription>
+                                </div>
+                                {exercises.map((item: any) => (
+                                    <FormField
+                                        key={item.id}
+                                        control={form.control}
+                                        name="exercises"
+                                        render={({ field }) => {
+                                            return (
+                                                <FormItem
+                                                    key={item.id}
+                                                    className="flex flex-row items-center space-x-3 space-y-0"
+                                                >
+                                                    <FormControl>
+                                                        <Checkbox
+                                                            checked={field.value?.includes(item.id)}
+                                                            onCheckedChange={(checked: boolean) => {
+                                                                return checked
+                                                                    ? field.onChange([...field.value, item.id])
+                                                                    : field.onChange(
+                                                                        field.value?.filter(
+                                                                            (value) => value !== item.id
+                                                                        )
                                                                     )
-                                                                )
-                                                        }}
-                                                        className="w-5 h-5"
-                                                    />
-                                                </FormControl>
-                                                <FormLabel className="text-base font-normal">
-                                                    {item.label}
-                                                </FormLabel>
-                                            </FormItem>
-                                        )
-                                    }}
-                                />
-                            ))}
-                            <FormMessage className="pt-1" />
-                        </FormItem>
-                    )}
-                />
+                                                            }}
+                                                            className="w-5 h-5"
+                                                        />
+                                                    </FormControl>
+                                                    <FormLabel className="text-base font-normal">
+                                                        {item.label}
+                                                    </FormLabel>
+                                                </FormItem>
+                                            )
+                                        }}
+                                    />
+                                ))}
+                                <FormMessage className="pt-1" />
+                            </FormItem>
+                        )}
+                    />
+                    : null}
 
                 <FormField
                     control={form.control}
