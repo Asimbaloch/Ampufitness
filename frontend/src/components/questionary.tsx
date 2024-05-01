@@ -25,9 +25,7 @@ const formSchema = z.object({
     exercise: z.enum(general_answers, {
         required_error: "You need to specify if you exercise",
     }),
-    exercises: z.array(z.string()).refine((value) => value.some((item) => item), {
-        message: "You have to select at least one exercise",
-    }),
+    exercises: z.array(z.string()),
     like_team_sports: z.enum(general_answers, {
         required_error: "You need to select an answer.",
     }),
