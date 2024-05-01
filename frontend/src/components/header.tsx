@@ -13,7 +13,7 @@ const Header = () => {
             </div>
             <nav className="flex gap-x-6">
                 <ModeToggle />
-                <Link href={"/app"} className={buttonVariants({ variant: "outline" })}>Try demo</Link>
+                <Link href={"/dashboard"} className={buttonVariants({ variant: "outline" })}>Try demo</Link>
             </nav>
         </header>
     )

@@ -1,4 +1,5 @@
 "use client";
+
 import Chatbot from "@/components/chatbot";
 import Questionary from "@/components/questionary";
 import { useState } from "react";

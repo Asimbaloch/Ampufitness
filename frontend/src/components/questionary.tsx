@@ -78,7 +78,6 @@ const Questionary = ({ setData }: { setData: Function }) => {
     function onSubmit(values: z.infer<typeof formSchema>) {
         setData(values);
         console.log(values);
-
     }
 
     return (
