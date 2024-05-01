@@ -52,3 +52,135 @@ export const people = [
         image: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
     },
 ];
+
+export const disabilities = [
+    {
+        id: "lower-leg-disability",
+        label: "Lower Leg Disability",
+    },
+    {
+        id: "upper-leg-disability",
+        label: "Upper Leg Disability",
+    },
+    {
+        id: "toe-disability",
+        label: "Toe Disability",
+    },
+    {
+        id: "arm-disability",
+        label: "Arm Disability",
+    },
+    {
+        id: "finger-disability",
+        label: "Finger Disability",
+    },
+    {
+        id: "in-wheelchair",
+        label: "In a Wheelchair",
+    },
+    {
+        id: "on-crutches",
+        label: "On Crutches",
+    },
+    {
+        id: "spinal-rotation-disability",
+        label: "Spinal Rotation Disability",
+    },
+    {
+        id: "other",
+        label: "Other",
+    },
+] as const;
+
+export const limbs = [
+    {
+        id: "lower-leg",
+        label: "Lower Leg",
+    },
+    {
+        id: "upper-leg",
+        label: "Upper Leg",
+    },
+    {
+        id: "toes",
+        label: "Toes",
+    },
+    {
+        id: "upper-arm",
+        label: "Upper Arm",
+    },
+    {
+        id: "lower-arm",
+        label: "Lower Arm",
+    },
+    {
+        id: "fingers",
+        label: "Fingers",
+    },
+    {
+        id: "spine",
+        label: "Spine",
+    },
+    {
+        id: "neck",
+        label: "Neck",
+    },
+] as const;
+
+export const exercises = [
+    {
+        id: "lower-leg-exercise",
+        label: "Lower Leg Exercise",
+    },
+    {
+        id: "upper-leg-exercise",
+        label: "Upper Leg Exercise",
+    },
+    {
+        id: "arm-exercise",
+        label: "Arm Exercise",
+    },
+    {
+        id: "finger-wrist-exercise",
+        label: "Finger/Wrist Exercise",
+    },
+    {
+        id: "chest-exercise",
+        label: "Chest Exercise",
+    },
+    {
+        id: "neck-exercise",
+        label: "Neck Exercise",
+    },
+    {
+        id: "cardio",
+        label: "Cardio",
+    },
+    {
+        id: "weight-lifting",
+        label: "Weight Lifting",
+    },
+    {
+        id: "rubber-band-exercise",
+        label: "Rubber Band Exercise",
+    },
+    {
+        id: "competitive-sports",
+        label: "Competitive Sports",
+    },
+    {
+        id: "other",
+        label: "Other",
+    },
+] as const;
+
+export const eating_restriction = [
+    "Vegetarian",
+    "Omnivore",
+    "Gluten Free",
+    "Vegan",
+    "Low FODMAP",
+    "Ketogenic",
+] as const;
+
+export const general_answers: readonly [string, ...string[]] = ["yes", "no"];
