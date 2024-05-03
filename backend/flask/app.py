@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template
-from promptengineering import format_data
+from chat_history import *
 
 
 #app instance
@@ -20,15 +20,18 @@ def submit_form():
     return "form received"
 
 
+
+# method to get user input
 @app.route("/ampufitness", methods=['POST'])
 def user_prompt():
     user_input = request.form.get('text')
 
-    # TODO
-    # add a func here that sends the user input and adds it in a dict
+    add_user_message(user_input)
     
-    return user_input
+    response = generate_response()
     
+    return response
+
 
 if __name__=="__main__":
     app.run(debug=True)
