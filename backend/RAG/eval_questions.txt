@@ -6,7 +6,6 @@
 
 "What are some of the exercises that people with upper limb difference can do", "People with upper limb differences can engage in a variety of exercises including walking, running, dancing, swimming, biking, yardwork, weightlifting, gym workouts, Tai Chi, and yoga, with emphasis on activity-specific prosthetic care and collaboration with healthcare professionals."
 
-
 "How should body-powered prosthetic devices be sanitized?", "Body-powered prosthetic devices, such as hooks and smaller devices, can be sanitized similarly to a sound hand. It is important to follow the instructions provided with the device for proper cleaning and maintenance. Generally, these devices are tolerant of water and can be washed like a sound hand. Be sure to sanitize them as needed according to the guidelines given by your prosthetist, therapist, or the manual that came with your device"
 
 "Are there any specific precautions to take when washing prosthetic hands that are water-resistant?" , "To properly clean water-resistant prosthetic hands like ETD or TASKA hands, ensure cosmetic glove integrity, dry thoroughly after washing, check for leaks, clean with moist cloth, sanitize with alcohol spray; for terminal devices covered with latex gloves, dispose of after use."
