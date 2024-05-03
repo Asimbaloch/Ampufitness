@@ -5,12 +5,6 @@ from promptengineering import format_data
 #app instance
 app = Flask(__name__)
 
-
-@app.route("/questions", methods=['GET'])
-def get_form():
-    return render_template('test.html')
-
-
 # method to get questionnaire details
 @app.route("/questions", methods=['POST'])
 def submit_form():
@@ -25,6 +19,16 @@ def submit_form():
     print("Form data received: ", data)
     return "form received"
 
+
+@app.route("/ampufitness", methods=['POST'])
+def user_prompt():
+    user_input = request.form.get('text')
+
+    # TODO
+    # add a func here that sends the user input and adds it in a dict
+    
+    return user_input
+    
 
 if __name__=="__main__":
     app.run(debug=True)

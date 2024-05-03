@@ -36,6 +36,7 @@ def llama_document_create(directory: str):
     
     llama_documents.append(llama_document)
   return llama_documents
+
         
 def build_sentence_index(directory: str, sentence_window_size: int, vectorstore):
   llama_documents=llama_document_create(directory=directory)
